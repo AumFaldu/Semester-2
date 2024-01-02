@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Lab_2_1
+public class Lab_2_1_Scanner
 {
 	public static void main(String[] args)
 	{
