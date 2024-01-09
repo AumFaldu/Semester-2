@@ -21,7 +21,19 @@ public class Lab_2_3
 			System.out.println("Product = "+(a*b));
 			break;
 		case "/":
+			
+			if(b==0)
+			{
+				System.out.println("Cannot be divided by zero");
+				while(b==0)
+				{
+				System.out.println("Reenter a value of b : ");
+				b = sc.nextDouble();				
+				}
+			}
 			System.out.println("Quotient = "+(a/b));
+			
+
 			break;
 		case "%":
 			System.out.println("Remainder = "+(a%b));
