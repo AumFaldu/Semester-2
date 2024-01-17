@@ -2,17 +2,23 @@
 <html>
 <head>
 	<title>Lab-4-C</title>
+	<style type="text/css">
+		th{
+			color: mediumseagreen;
+			text-align: left;
+		}
+	</style>
 </head>
 <body>
-	<fieldset style:width=1>
-		<div style="border:10px solid #1166AA">
+		<div style="border:20px solid #1166AA">
 	<form style="border-color: rgb(6,208,208);">
-	<table align="center">
-		<div style="width: 100%;background-color: gray; text-align: center;height: 80px;">Create Account</div>
+	<table align="center" style="margin-top: -8%;">
+		<div style="width: 100%;background-color: gray; text-align: center;height: 80px; padding-top: 40px;font-size: 30px; ">Create Account</div>
 		<br>
 		<tr>
-			<td>First Name*</td>
-			<td>Last Name</td>
+
+			<th>First Name*</th>
+			<th>Last Name</th>
 		</tr>
 		<tr>
 			<td><input type="text" required placeholder="enter your first name"></td>
@@ -20,15 +26,15 @@
 		</tr>
 		<br>
 		<tr>
-			<td>Email*</td>
+			<th>Email*</th>
 		</tr>
 		<tr>
-			<td><input type="Email" placeholder="enter your Email" required></td>
+			<td colspan="2"><input type="Email" placeholder="enter your Email" required size="59%"></td>
 		</tr>
 		<br>
 		<tr>
-			<td>Password*</td>
-			<td>Confirm Password*</td>
+			<th>Password*</th>
+			<th>Confirm Password*</th>
 		</tr>
 		<tr>
 			<td><input type="Password" placeholder="enter your password" required></td>
@@ -36,8 +42,8 @@
 		</tr>
 		<br>
 		<tr>
-			<td>Gender:</td>
-			<td>Hobbies</td>
+			<th>Gender:</th>
+			<th>Hobbies</th>
 		</tr>
 		<tr>
 			<td>
@@ -45,16 +51,16 @@
 				<input type="radio" name="Gender">Female
 			</td>
 			<td>
-				<input type="radio" name="Hobbies">Music
-				<input type="radio" name="Hobbies">Sports
-				<input type="radio" name="Hobbies">Travel
-				<input type="radio" name="Hobbies">Movies
+				<input type="checkbox">Music
+				<input type="checkbox">Sports
+				<input type="checkbox">Travel
+				<input type="checkbox">Movies
 			</td>
 		</tr>
 		<br>
 		<tr>
-			<td>Source of Income</td>
-			<td>Income</td>
+			<th>Source of Income</th>
+			<th>Income</th>
 		</tr>
 		<tr>
 			<td><select>
@@ -62,33 +68,30 @@
 				<option>Business</option>
 				<option>Others</option>
 			</select></td>
-			<td><input type="range" min="0" max="200000" ><button>20k</button></td>
+			<td><input type="range" min="0" max="200000" ><button style="background-color:green; color: white;">20k</button></td>
 		</tr>
 		<br>
 		<tr>
-			<td>Upload Profile Picture</td>
-			<td>Age</td>
+			<th>Upload Profile Picture</th>
+			<th>Age</th>
 		</tr>
 		<tr>
 			<td><input type="file"></td>
-			<td><input type="number"></td>
+			<td><input type="number" value="18"></td>
 		</tr>
 		<br>
 		<tr>
-			<td>Bio</td>
+			<th>Bio</th>
 		</tr>
 		<tr>
-			<td><textarea></textarea></td>
+			<td colspan="2"><textarea cols="59%" rows="4"></textarea></td>
 		</tr>
 		<br>
-		<tr>
-		<td><div style="background-color: gray ; align-content: end">
-			<button style="background-color: green;">Create</button>
-		</div></td>		
-		</tr>
 	</table>
+		<div style="width: 99.3%;background-color: gray; text-align: right; padding-right: 10px; height: 50px; padding-top: 10px;padding-bottom: 10px;">
+			<button style="background-color: green; height: 30px; width: 70px;color: white;">Create</button></td>
+		</div>		
 	</form>
 </div>
-	</fieldset>
 </body>
 </html>
