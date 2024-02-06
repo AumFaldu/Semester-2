@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class HeronFormula
+public class Extra_HeronFormula
 {
 	public static void main(String[] args) {
 	Scanner sc = new Scanner(System.in);
