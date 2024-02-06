@@ -9,7 +9,7 @@ public class Lab_5_4
 }
 class Bank_Account{
 	Scanner sc = new Scanner(System.in);
-	int accountNo;
+	double accountNo;
 	String username;
 	String email;
 	String accountType;
@@ -25,7 +25,7 @@ class Bank_Account{
 	public void getAccountDetails()
 	{
 		System.out.println("Enter AccountNo : ");
-		this.accountNo = sc.nextInt();
+		this.accountNo = sc.nextDouble();
 		System.out.println("Enter Username : ");
 		this.username= sc.next();
 		System.out.println("Enter Email : ");
