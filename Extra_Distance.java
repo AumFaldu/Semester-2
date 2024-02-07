@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class Extra_Distance{
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter coordinates of d1 : ");
+		System.out.print("Enter coordinates of d1 : ");
 		double x1 = sc.nextDouble();
 		double y1 = sc.nextDouble();
-		System.out.println("Enter coordinates of d2 : ");
+		System.out.print("Enter coordinates of d2 : ");
 		double x2 = sc.nextDouble();
 		double y2 = sc.nextDouble();
 		Distance d1 = new Distance(x1,y1);
