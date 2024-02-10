@@ -8,7 +8,7 @@ public class Lab_5_3
 		{
 			System.out.println("Enter a sentence(type quit to exit)");
 			String s = sc.nextLine();
-			if(s.equals("quit"))
+			if(s.equalsIgnoreCase("quit"))
 			{
 				break;
 			}
