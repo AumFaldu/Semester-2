@@ -14,6 +14,7 @@ public class Lab_5_5
 		Complex_numbers n1 = new Complex_numbers(r1,c1);
 		Complex_numbers n2 = new Complex_numbers(r2,c2);
 		n1.add(n2);
+		sc.close();
 	}
 }
 class Complex_numbers{
