@@ -16,9 +16,9 @@ public class Extra_HeronFormula
 		else{
 			System.out.println("Triangle is not possible");
 			
-		}	
+		}
+		sc.close();
 	}
-	sc.close();
 }
 class Formula{
 	static double a,b,c,s;
