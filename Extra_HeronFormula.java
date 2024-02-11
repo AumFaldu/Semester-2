@@ -18,6 +18,7 @@ public class Extra_HeronFormula
 			
 		}	
 	}
+	sc.close();
 }
 class Formula{
 	static double a,b,c,s;
