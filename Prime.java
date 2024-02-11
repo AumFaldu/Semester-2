@@ -24,6 +24,6 @@ public class Prime
 		{
 			System.out.println("Is not Prime");
 		}
-
+		sc.close();
 	}
 }
