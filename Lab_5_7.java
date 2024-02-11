@@ -12,6 +12,7 @@ public class Lab_5_7
 	int h = sc.nextInt();
 	Box b1 = new Box(l,b,h);
 	b1.displayValue(); 
+	sc.close();
 	}
 }
 class Box{
