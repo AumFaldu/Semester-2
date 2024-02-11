@@ -41,5 +41,6 @@ public class Lab_2_3
 		default:
 			System.out.println("Enter a valid operation");
 		}
+		sc.close();
 	}
 }
