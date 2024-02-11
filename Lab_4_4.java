@@ -13,5 +13,6 @@ public class Lab_4_4
 			rev += s.charAt(i);
 		}
 		System.out.println("Reverse String = "+rev);
+		sc.close();
 	}
 }
