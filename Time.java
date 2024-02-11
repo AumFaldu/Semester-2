@@ -39,7 +39,7 @@ public class Time{
 		Time t1 = new Time(hour1,minute1);
 		Time t2 = new Time(hour2,minute2);
 		Time t3 = t1.add(t2);
-		System.out.println("Result "+t3.getHour()+"hours, "+t3.getMinute()+"minutes");
+		System.out.println("Sum =  "+t3.getHour()+" hours, "+t3.getMinute()+" minutes");
 		sc.close();
 	}
 }
