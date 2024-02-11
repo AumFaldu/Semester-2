@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class Time{
-	private int hour;
-	private int minute;
+	int hour;
+	int minute;
 	public Time(int hour,int minute)
 	{
 			this.hour = hour;
@@ -40,5 +40,6 @@ public class Time{
 		Time t2 = new Time(hour2,minute2);
 		Time t3 = t1.add(t2);
 		System.out.println("Result "+t3.getHour()+"hours, "+t3.getMinute()+"minutes");
+		sc.close();
 	}
 }
