@@ -15,6 +15,7 @@ public class Lab_5_2
 		Time t1 = new Time(h1,m1);
 		Time t2 = new Time(h2,m2);
 		t1.add(t2);
+		sc.close();
 	}
 }
 class Time{
