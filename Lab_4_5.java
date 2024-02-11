@@ -10,6 +10,7 @@ public class Lab_4_5
 		int i;
 		System.out.print("Second half of string = ");
 		System.out.println(s.substring((s.length())/2));
+		sc.close();
 		
 	}
 }
