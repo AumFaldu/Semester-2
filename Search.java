@@ -43,5 +43,6 @@ public class Search
 				break;
 			}
 		}
+		sc.close();
 	}
 }
