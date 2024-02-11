@@ -12,6 +12,7 @@ public class Lab_5_6
 		}
 
 		System.out.println("Total objects created = "+c[n-1].count);
+		sc.close();
 	}
 }
 class Counter{
