@@ -8,5 +8,6 @@ public class Lab_2_4
 		System.out.print("Enter radius of circle : ");
 		double r = sc.nextDouble();
 		System.out.println("Area of Circle = "+(pi*r*r));
+		sc.close();
 	}
 }
