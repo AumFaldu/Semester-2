@@ -15,5 +15,6 @@ public class Lab_4_7
 			}
 			System.out.print("\n");
 		}
+		sc.close();
 	}
 }
