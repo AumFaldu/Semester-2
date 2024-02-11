@@ -15,6 +15,7 @@ public class Lab_5_3
 			sentence.processSentence(s);
 		}while(true);
 		System.out.println("a = "+sentence.count_a+"\ne = "+sentence.count_e+"\ni = "+sentence.count_i+"\no = "+sentence.count_o+"\nu = "+sentence.count_u);
+		sc.close();
 	}
 }
 class Sentence{
