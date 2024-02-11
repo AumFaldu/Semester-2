@@ -38,6 +38,7 @@ class Bank_Account{
 	public void displayAccountDetails()
 	{
 		System.out.println("Account Number = "+accountNo+"\nUsername = "+username+"\nEmail = "+email+"\nAccount Type = "+accountType+"\nAccount Balance = "+accountBalance);
+		sc.close();
 	}
 
 }
