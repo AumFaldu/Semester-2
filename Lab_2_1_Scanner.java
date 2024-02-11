@@ -7,5 +7,6 @@ public class Lab_2_1_Scanner
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		System.out.println("Sum = "+(a+b));
+		sc.close();
 	}
 }
