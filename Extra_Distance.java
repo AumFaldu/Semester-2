@@ -11,6 +11,7 @@ public class Extra_Distance{
 		Distance d1 = new Distance(x1,y1);
 		Distance d2 = new Distance(x2,y2);
 		System.out.println("Distance = "+Distance.formula(x2-x1,y2-y1)+"units");
+		sc.close();
 	}
 }
 class Distance{
