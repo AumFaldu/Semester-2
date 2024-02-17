@@ -20,10 +20,10 @@ public class Extra_PointTriangle{
 		Triangle a = new Triangle(x1,y1,x2,y2,x3,y3);
 		if((a1.Area()+a2.Area()+a3.Area())==a.Area())
 		{
-			System.out.println("Point is inside the triangle");
+			return 1;
 		}
 		else{
-			System.out.println("Point is outside the triangle");
+			return 0;
 		}
 
 	}
