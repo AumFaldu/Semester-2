@@ -3,6 +3,7 @@ public class Lab_6_6{
 	public static void main(String[] args) {
 		Child c = new Child();
 		c.display();
+		sc.close();
 	}
 }
 class Parent{
