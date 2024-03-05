@@ -5,7 +5,7 @@ public class Lab_6_7{
 		System.out.print("Enter a number : ");
 		int n = sc.nextInt();
 		Child c = new Child(n);
-
+		sc.close();
 	}
 }
 class Parent{
