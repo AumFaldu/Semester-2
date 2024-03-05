@@ -35,7 +35,7 @@ public class Lab_6_3{
         sc.nextLine();
         System.out.print("Department: ");
         manager.department = sc.nextLine();
-
+	System.out.println("==========================================================================");
         System.out.println("\nEmployee Details:");
         System.out.println("Name: " + employee.name);
         System.out.println("Age: " + employee.age);
