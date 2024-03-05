@@ -4,13 +4,11 @@ public class Lab_6_2{
 			if(args[2].equalsIgnoreCase("book"))
 			{
 				Book book_publication = new Book_publication(args[1],args[0]);
-				book.print();
 				book_publication.print();
 			}
 			else if(args[2].equalsIgnoreCase("paper"))
 			{
 				Book paper_publication = new Paper_publication(args[1],args[0]);
-				book.print();
 				paper_publication.print();
 			}
 
@@ -37,7 +35,7 @@ class Book_publication extends Book{
 	}
 	public void print()
 	{
-		
+		super.print();
 		System.out.println("Title of Book_publication = "+title);
 	}
 
@@ -51,7 +49,7 @@ class Paper_publication extends Book{
 	}
 	public void print()
 	{
-		
+		super.print();
 		System.out.println("Title of Paper_publication = "+title);
 	}
 }
