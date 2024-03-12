@@ -1,35 +1,46 @@
 public class Lab_7_1{
 	public static void main(String[] args) {
-		Potato p = new Potato();
-		Brinjal b = new Brinjal();
-		Tomato t = new Tomato();
-		System.out.println(p.toString("Yellow"));
-		System.out.println(b.toString("Purple"));
-		System.out.println(t.toString("red"));
+		Potato p = new Potato("Brown");
+		Brinjal b = new Brinjal("Purple");
+		Tomato t = new Tomato("red");
+		System.out.println(p);
+		System.out.println(b);
+		System.out.println(t);
 	}
 }
 abstract class Vegetable{
 	String color;
-	abstract public String toString(String color);
+	public Vegetable(String color)
+	{
+		this.color = color;
+	}
+	abstract public String toString();
 }
 class Potato extends Vegetable{
-	
-		public String toString(String color)
-		{
-			this.color = color;
-			return "Potato = "+color;
-		}
-	
+	public Potato(String color)
+	{
+		super(color);
+	}
+	public String toString()
+	{
+		return "Name = Potato : Color = "+color;
+	}
 }
 class Brinjal extends Vegetable{
-	public String toString(String color){
-		this.color = color;
-		return "Brinjal = "+color; 
+	public Brinjal(String color)
+	{
+		super(color);
+	}
+	public String toString(){
+		return "Name = Brinjal : Color = "+color; 
 	}
 }
 class Tomato extends Vegetable{
-	public String toString(String color){
-		this.color = color;
-		return "Tomato = "+color;
+	public Tomato(String color)
+	{
+		super(color);
+	}
+	public String toString(){
+		return "Name = Tomato : Color = "+color;
 	}
 }
