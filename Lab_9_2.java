@@ -1,7 +1,7 @@
 public class Lab_9_2{
 	public static void main(String[] args) {
-		Thread o = new Thread(new odd());
-		Thread e = new Thread(new even());
+		Thread o = new Thread(new Odd());
+		Thread e = new Thread(new Even());
 		o.start();
 		e.start();
 		try{
@@ -15,7 +15,7 @@ public class Lab_9_2{
 		System.out.println("Program Completed");
 	}
 }
-class odd implements Runnable{
+class Odd implements Runnable{
 	public void run(){
 		for(int i=1;i<=20;i+=2)
 		{
@@ -29,7 +29,7 @@ class odd implements Runnable{
 		}
 	}
 }
-class even implements Runnable{
+class Even implements Runnable{
 	public void run(){
 		for(int i=2;i<=20;i+=2)
 		{
