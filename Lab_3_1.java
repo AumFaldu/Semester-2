@@ -33,5 +33,6 @@ public class Lab_3_1
 		{
 			System.out.println("Fail");
 		}
+		sc.close();
 	}
 }

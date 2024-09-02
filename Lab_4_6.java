@@ -12,7 +12,7 @@ public class Lab_4_6
             else
             {
                 System.out.println("Error occured");
-                break;
+                return;
             }
         
         }

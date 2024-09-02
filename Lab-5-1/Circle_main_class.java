@@ -9,5 +9,6 @@ public class Circle_main_class
 		int r = sc.nextInt();
 		double res = ar.area(r);
 		System.out.println(res);
+		sc.close();
 	}
 }

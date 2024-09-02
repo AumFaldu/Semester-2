@@ -8,5 +8,6 @@ public class Lab_2_5
 		double f = sc.nextDouble();
 		double c = ((f-32.0)*5.0)/9.0;
 		System.out.println("Value of temperature in Celsius : "+c);
+		sc.close();
 	}
 }

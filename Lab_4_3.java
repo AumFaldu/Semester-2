@@ -19,5 +19,6 @@ public class Lab_4_3
 		}
 		avg = (float)(sum/4.0);
 		System.out.println("Average = "+avg);
+		sc.close();
 	}
 }

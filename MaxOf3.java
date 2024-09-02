@@ -27,5 +27,6 @@ public class MaxOf3
 		{
 			System.out.println("Maximum = "+k);
 		}
+		sc.close();
 	}
 }

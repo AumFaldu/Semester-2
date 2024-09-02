@@ -27,5 +27,6 @@ public class Lab_4_2
 		}
 		System.out.println("Consonants = "+cons);
 		System.out.println("Vowels = "+vow);
+		sc.close();
 	}
 }
